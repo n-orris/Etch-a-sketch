@@ -1,0 +1,26 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+    text-shadow: 1px 1px black;
+    text-decoration-color: crimson;
+    font-weight: bold;
+    font-size: 50px;
+}
+body {
+    background-image: url("images/background-pixels");
+
+}
+.container {
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+    border-width: 50px;
+    border-color: crimson;
+    border-style: solid;
+    box-shadow: 7px 7px;
+    mso-border-shadow: yes;
+    margin: auto;
+    width: 50%;
+}
