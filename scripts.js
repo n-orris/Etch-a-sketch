@@ -11,3 +11,17 @@ function makeRows(rows, cols) {
 };
 
 makeRows(12, 12);
+
+const gridSelect = document.querySelector('.grid-item');
+const gridBoxes = document.querySelectorAll('.grid-item');
+
+gridBoxes.forEach((gridSelect) => {
+
+    gridSelect.addEventListener("mouseover", function (event) {
+
+        gridSelect.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    });
+
+});
+
+

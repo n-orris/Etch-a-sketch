@@ -9,6 +9,8 @@ h1 {
 }
 body {
     background-image: url("images/background-pixels");
+    background-repeat: no-repeat;
+    background-size: auto auto;
 
 }
 #container {
