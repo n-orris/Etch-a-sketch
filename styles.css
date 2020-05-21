@@ -20,20 +20,19 @@ body {
     min-width: 600px;
     min-height: 600px;
     border-radius: 40px;
-    border-width: 50px;
+    border-width: 45px;
     border-color: crimson;
     border-style: solid;
     box-shadow: 7px 7px;
     mso-border-shadow: yes;
     margin: auto;
-    margin-top: -48px;
+    margin-top: -68px;
     display: grid;
     background-color: white;
     flex-wrap: wrap;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
-
 
 :root {
     --grid-cols: 1;
@@ -49,6 +48,29 @@ body {
 .grid-item:hover {
     background-color: black;
 }
+
+.buttons {
+    display: inline-block;
+    grid-auto-rows: 5px;
+    align-self: center;
+    margin-left: 40%;
+    align-content: space-evenly;
+    padding-bottom: 28px;
+}
+.button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-block: 10px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    box-shadow: 2px 2px;
+    margin-top: -14%;
+
+}
+
 
 
 
