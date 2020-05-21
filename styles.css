@@ -1,26 +1,62 @@
 
 h1 {
     text-align: center;
-    color: crimson;
+    color:crimson;
     text-shadow: 1px 1px black;
     text-decoration-color: crimson;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 body {
     background-image: url("images/background-pixels");
 
 }
-.container {
+#container {
     align-items: center;
-    width: 600px;
-    height: 600px;
-    border-radius: 50px;
+    width: 700px;
+    height: 620px;
+    min-width: 600px;
+    min-height: 600px;
+    border-radius: 40px;
     border-width: 50px;
     border-color: crimson;
     border-style: solid;
     box-shadow: 7px 7px;
     mso-border-shadow: yes;
     margin: auto;
-    width: 50%;
+    margin-top: -48px;
+    display: grid;
+    background-color: white;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
+
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+
+.grid-item {
+    padding: 1.555em;
+    border: 1px solid black;
+    text-align: left;
+}
+.grid-item:hover {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

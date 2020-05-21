@@ -1,13 +1,13 @@
-// selectors
-const container = document.querySelector('.container');
-const body = document.querySelector('.body');
+const container = document.getElementById("container");
 
-//created elements
-const div = document.createElement('div');
+function makeRows(rows, cols) {
+    container.style.setProperty("--grid-rows", rows);
+    container.style.setProperty('--grid-cols', cols);
 
-// additions
-// appending to Dom
-body.appendChild(image);
+    for (let i = 0; i < (rows * cols); i++) {
+        let cell = document.createElement("div");
+        container.appendChild(cell).className = "grid-item";
+    };
+};
 
-
-
+makeRows(12, 12);
