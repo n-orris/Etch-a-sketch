@@ -20,13 +20,13 @@ body {
     min-width: 600px;
     min-height: 600px;
     border-radius: 40px;
-    border-width: 45px;
+    border-width: 50px;
     border-color: crimson;
     border-style: solid;
     box-shadow: 7px 7px;
     mso-border-shadow: yes;
     margin: auto;
-    margin-top: -68px;
+    margin-top: -67px;
     display: grid;
     background-color: white;
     flex-wrap: wrap;
@@ -55,19 +55,32 @@ body {
     align-self: center;
     margin-left: 40%;
     align-content: space-evenly;
-    padding-bottom: 28px;
+    height: 30px;
+    position: relative;
+    top: -35px;
+    margin-bottom: -25px;
+
+
 }
 .button {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-block: 10px;
     border-style: solid;
     border-radius: 1px;
     border-color: black;
     box-shadow: 2px 2px;
-    margin-top: -14%;
+
+}
+.button:hover {
+    background-color: cornflowerblue;
+}
+#colorPicker {
+    position: relative;
+    top: 4px;
+    padding: 5px;
 
 }
 
